@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "363451543557",
+    "firebase_url": "https://capwic-jmu-2019.firebaseio.com",
+    "project_id": "capwic-jmu-2019",
+    "storage_bucket": "capwic-jmu-2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363451543557:android:b4dabb020791d7f9",
+        "android_client_info": {
+          "package_name": "com.willowtreeapps.capwic_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363451543557-sl7fv0oo29hh6orh2ovcilkr89ij29ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3wmGfFleI79dcdpLLfUAY3zP2MkdSdGI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
