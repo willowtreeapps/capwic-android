@@ -7,13 +7,46 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/teams_text_view"
+        android:id="@+id/read_from_database_label_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:padding="@dimen/default_padding"
+        android:text="@string/read_from_database"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ready_from_database_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/default_padding"
+        android:paddingEnd="@dimen/default_padding"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark"
+        tools:text="True"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/read_from_database_label_text_view" />
+
+    <TextView
+        android:id="@+id/write_to_database_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_padding"
+        android:text="@string/write_to_realtime_database"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ready_from_database_text_view" />
+
+    <Button
+        android:id="@+id/ready_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/default_padding"
+        android:text="@string/ready"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/write_to_database_label_text_view" />
 
 </android.support.constraint.ConstraintLayout>

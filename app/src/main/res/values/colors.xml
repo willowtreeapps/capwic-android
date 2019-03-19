@@ -7,4 +7,6 @@
     <color name="willowtree_blue">#308390</color>
     <color name="willowtree_teal">#74CAC4</color>
     <color name="willowtree_text">#002B32</color>
+
+    <color name="black">#000000</color>
 </resources>
